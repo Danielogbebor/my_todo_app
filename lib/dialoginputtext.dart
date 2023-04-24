@@ -15,7 +15,7 @@ class DialogInput extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       backgroundColor: Colors.brown.shade300,
-      content: Container(
+      content: SizedBox(
         height: 110,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -24,7 +24,7 @@ class DialogInput extends StatelessWidget {
               controller: controller,
               decoration: InputDecoration(
                   hintText: 'New Task',
-                  prefixIcon: Icon(Icons.list),
+                  prefixIcon: const Icon(Icons.list),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -35,20 +35,20 @@ class DialogInput extends StatelessWidget {
               children: [
                 OutlinedButton(
                   onPressed: save,
-                  child: Text(
+                  style: const ButtonStyle(
+                      backgroundColor: MaterialStatePropertyAll(Colors.brown)),
+                  child: const Text(
                     'Save',
                     style: TextStyle(color: Colors.white),
                   ),
-                  style: ButtonStyle(
-                      backgroundColor: MaterialStatePropertyAll(Colors.brown)),
                 ),
-                SizedBox(width: 8),
+                const SizedBox(width: 8),
                 OutlinedButton(
                     onPressed: cancel,
-                    style: ButtonStyle(
+                    style: const ButtonStyle(
                         backgroundColor:
                             MaterialStatePropertyAll(Colors.brown)),
-                    child: Text(
+                    child: const Text(
                       'Cancel',
                       style: TextStyle(color: Colors.white),
                     )),
