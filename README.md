@@ -1,6 +1,12 @@
-# my_todo_app
 
-Welcome to the To-Do List App! This simple yet powerful application helps you manage your tasks and stay organized effortlessly. Whether you're a busy professional, a student, or just someone looking to enhance their productivity, this app has got you covered.
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>my_todo_app</h1>
+    <p>
+      Welcome to the To-Do List App! This simple yet powerful application helps you manage your tasks and stay organized effortlessly. Whether you're a busy professional, a student, or just someone looking to enhance their productivity, this app has got you covered.
 
 
 ## Features
@@ -15,9 +21,30 @@ Mark as Complete: Celebrate your accomplishments by marking tasks as complete. W
 
 Reminders and Notifications: Set reminders for time-sensitive tasks, and receive notifications so you never miss a beat.
 
-Customization Options: Tailor the app to your preferences with customizable themes and layouts. Make your to-do list truly yours.![Simulator Screenshot - iPhone 14 Pro - 2023-08-17 at 10 28 44](https://github.com/Danielogbebor/my_todo_app/assets/99035672/8210d990-4cc0-46a8-8bb7-25337565d4b4)
- ![Simulator Screenshot - iPhone 14 Pro - 2023-08-17 at 10 26 44](https://github.com/Danielogbebor/my_todo_app/assets/99035672/d876d7ad-5d7e-467d-a4c2-ef65d0f8e4a2)
- ![Simulator Screenshot - iPhone 14 Pro - 2023-08-17 at 10 28 22](https://github.com/Danielogbebor/my_todo_app/assets/99035672/0196635d-a8ec-4359-8c0c-b7495168d7c7)
+Customization Options: Tailor the app to your preferences with customizable themes and layouts. Make your to-do list truly yours.
+    </p>
+    <p>Tools Used:</p>
+    <ul>
+        <li>Flutter</li>
+        <li>Dart</li>
+        <li>Hive</li>
+        <li>Hive_Flutter</li>
+        <li>Cuppertino_icons</li>
+        <li>Llutter_slidable</li>
+       <!DOCTYPE html>
 
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-17 at 10 30 50](https://github.com/Danielogbebor/my_todo_app/assets/99035672/c7d9937a-bb4e-410a-8037-d052ef8d1998)
+
+
+<p align="center">
+  <img src="https://github.com/Danielogbebor/my_todo_app/assets/99035672/48ab3d8f-6f86-4533-865d-5dd21b5a4658" width="200" />
+  <img src="https://github.com/Danielogbebor/my_todo_app/assets/99035672/7fd031e4-037e-40c0-9216-ae81ec3bb786" width="200" /> 
+  <img src="https://github.com/Danielogbebor/my_todo_app/assets/99035672/de3e9579-4078-4640-b90d-5a140e3bb017" width="200"/>
+  <img src="https://github.com/Danielogbebor/my_todo_app/assets/99035672/e98dc4fc-1b26-4f16-88a1-80743eebbf96" width="200" /> 
+  <img src="https://github.com/Danielogbebor/my_todo_app/assets/99035672/21cabacb-0cd6-40fa-9c61-f8a43c23493e" width="200" /> 
+</p>
+
+    
+    
+</body>
+</html>
